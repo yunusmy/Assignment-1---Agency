@@ -1,12 +1,45 @@
-# React + Vite
+# batch-3-assignment-1 Agency Landing Page - React Components
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is the first assignment for the Learn With Sumit React Accelerator Batch #3. The goal is to convert a simple static Agency landing page into dynamic, reusable React components using Vite as the project bundler.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Overview
 
-## Expanding the ESLint configuration
+The assignment is aimed at breaking down an HTML/CSS-based static real estate landing page into reusable, modular, and maintainable React components. The focus is on understanding how to transform a traditional webpage into a React-based UI while maintaining the same look and feel.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- **React**: JavaScript library for building user interfaces
+- **Vite**: Front-end build tool for fast development
+- **TailwindCSS**: For styling the landing page
+- **JavaScript (ES6)**: For writing modular and dynamic code
+
+## Project Structure
+
+```bash
+├── public/
+│   ├── assets/
+│   │   ├── images/        # Image assets (logos, banners, etc.)
+├── src/
+│   ├
+│   ├── components/        # Reusable React components
+│   ├── App.jsx            # Main App component
+│   ├── main.jsx           # Vite entry point
+│   └── index.css          # Tailwind Css File
+├── package.json           # Project metadata and dependencies
+├── vite.config.js         # Vite configuration file
+└── README.md              # Project documentation
+```
+
+### Installation
+
+- Clone Repository and open folder
+- Run 'npm install;
+- npm run dev
+
+### Available Scripts
+
+- npm run dev: Starts the Vite development server.
+- npm run build: Builds the project for production.
+- npm run preview: Serves the production build locally.
