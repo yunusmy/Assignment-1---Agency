@@ -4,7 +4,7 @@ const CircleIcon = () => {
   return (
     <>
       <svg
-        className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400"
+        className="flex-shrink-0 w-5 h-5  text-green-500 dark:text-green-400"
         fill="currentColor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
